@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Do I get a bonus?";    // <= add file name (copy from console)
+let kataName = "Will you make it?";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
