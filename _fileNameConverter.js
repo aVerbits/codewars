@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Enumerable Magic #25 - Take the First N Elements";    // <= add file name (copy from console)
+let kataName = "Twice as old";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
