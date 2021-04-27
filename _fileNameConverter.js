@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Will you make it?";    // <= add file name (copy from console)
+let kataName = "Enumerable Magic #25 - Take the First N Elements";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
