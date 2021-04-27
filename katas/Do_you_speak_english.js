@@ -1,0 +1,29 @@
+export default spEng;
+
+/*
+Do you speak "English"?
+Given a string of arbitrary length with any ascii characters. Write a function to determine whether the string contains the whole word "English".
+
+The order of characters is important -- a string "abcEnglishdef" is correct but "abcnEglishsef" is not correct.
+
+Upper or lower case letter does not matter -- "eNglisH" is also correct.
+
+Return value as boolean values, true for the string to contains "English", false for it does not.
+*/
+
+function spEng(sentence){
+    let sentenceLower = sentence.toLowerCase();
+    return sentenceLower.includes('english');
+}
+
+// return /english/i.test(s)
+
+// let match = 'english'
+//     let cmp = sentence.toLowerCase()
+//     for (var i = 0, j = 0; i < cmp.length; i++)
+//         if (cmp[i] == match[j])
+//             j++
+//     return j == match.length
+
+// console.log(spEng("english"));
+// console.log(spEng("egnlish"));

@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Twice as old";    // <= add file name (copy from console)
+let kataName = "Do you speak english";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
