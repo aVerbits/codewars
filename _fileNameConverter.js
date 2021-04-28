@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "pick a set of first elements";    // <= add file name (copy from console)
+let kataName = "Keep up the hoop";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
@@ -10,7 +10,7 @@ function fileName(kataName) {
 
         kataName[i] !== " " ? text += kataName[i] : text += "_";
     }
-        return `   fileName:\n${text}\n import ${kataName} from './katas/${text}.js'` ;
+        return `   fileName:\n${text}\n import funcName from './katas/${text}.js'` ;
 }
 
 console.log(fileName(kataName));
