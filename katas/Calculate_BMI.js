@@ -15,27 +15,25 @@ if bmi > 30 return "Obese"
 
 
 function bmi(weight, height) {
-//   let bmiForm = weight/(height*height);
-//   let x = ""
-//   console.log(x)
-//   switch (bmiForm) {
-//     case bmiForm<= 18.5:
-//       x = "Underweight";
-//       break;
-//       case 18.5<bmiForm<=25.0:
-//         x = "Normal";
-//       break;
-//       case 25.0<bmiForm<=30.0:
-//         x = "Overweight";
-//       break;
-//       // default :
-//       //  x = "Obese"
-//       // break;
-//   }
-//   console.log(bmiForm);
-//   console.log(x)
-    
-//   return x;
+  let bmiForm = weight/height**2;
+  if (bmiForm <= 18.5) {
+    return "Underweight"}
+  else if( bmiForm <= 25.0) {
+    return "Normal"}
+  else if ( bmiForm <= 30.0) {
+    return "Overweight"}  
+  else return "Obese"
 }
 
-// console.log(bmi(80, 1.80));
+console.log(bmi(80, 1.80));
+
+// var formula = (weight / Math.pow(height, 2));
+// switch (true) {
+//   case formula <=18.5:
+//   return 'Underweight';
+//   case formula <=25.0:
+//   return 'Normal';
+//   case formula <=30:
+//   return 'Overweight';
+//   default:
+//   return 'Obese';
