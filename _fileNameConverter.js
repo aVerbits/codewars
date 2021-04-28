@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Calculate average";    // <= add file name (copy from console)
+let kataName = "pick a set of first elements";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
@@ -10,7 +10,7 @@ function fileName(kataName) {
 
         kataName[i] !== " " ? text += kataName[i] : text += "_";
     }
-        return text;
+        return `   fileName:\n${text}\n import ${kataName} from './katas/${text}.js'` ;
 }
 
 console.log(fileName(kataName));

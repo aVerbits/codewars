@@ -25,7 +25,7 @@ function bmi(weight, height) {
   else return "Obese"
 }
 
-console.log(bmi(80, 1.80));
+// console.log(bmi(80, 1.80));
 
 // var formula = (weight / Math.pow(height, 2));
 // switch (true) {
