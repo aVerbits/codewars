@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Keep up the hoop";    // <= add file name (copy from console)
+let kataName = "Thinkful - Logic Drills: Traffic light";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
