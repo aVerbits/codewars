@@ -20,6 +20,21 @@ function updateLight(current) {
    else if (current === red){return green}
 }
 
-console.log(updateLight("green"));
-console.log(updateLight("yellow"));
-console.log(updateLight("red"));
+// console.log(updateLight("green"));
+// console.log(updateLight("yellow"));
+// console.log(updateLight("red"));
+
+
+// const updateLight = current => ({
+//     green: 'yellow',
+//     yellow: 'red',
+//     red: 'green',
+//   })[current]
+
+
+// function updateLight(current) {
+//     const lights = ["green", "yellow", "red"]
+    
+//     return current ==="red" ? "green" : lights[lights.indexOf(current)+ 1]
+    
+//   }
