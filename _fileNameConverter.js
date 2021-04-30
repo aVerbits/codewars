@@ -1,6 +1,6 @@
 export default fileName;
 
-let kataName = "Powers of 2";    // <= add file name (copy from console)
+let kataName = "Pre-FizzBuzz Workout #1";    // <= add file name (copy from console)
 
 function fileName(kataName) {
 
